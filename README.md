@@ -1,7 +1,7 @@
 # MedFit-Assistant-App
 
 ## Description
-For HealthCare, I've created a web programme that can show the health details of people for them to watch. For constructing the application, I utilised MySQL as database and Java with spring boot for the backend .All the frontend is made by using reactjs. The user can see their reports regarding health with diiferent categories shown in screenshot below.
+I made a web-based application to help with health care that allows users to view information about their health. I used MySQL as the database and Java with Spring Boot for the backend when building the application. Reactjs was used to create the whole front end. The pictures below illustrate the user's reports on their health in many areas.
 
 ## Features 
 The Application opens with the login screen.
