@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #080433;
+}
+
+.form{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logincontainer {
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  margin-top: -300px;
+  margin-left: 650px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2fbec;
+  border: 1px rgb(17, 234, 198) solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo img{
+  width: 350px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 350px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.registercontainer {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2fbec;
+  border: 1px rgb(17, 234, 198) solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container input{
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #2271cb;
+  border-radius: 5px;
+}
+
+.logincontainer button {
+  width: 50%;
+  padding: 10px;
+  background-color: #5b987b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.logincontainer button:hover {
+  background-color: #4779ed;
+}
+
+.label{
+  color: rgb(5, 58, 99);
+  font-family: fantasy;
+  margin-left: 0px;
+}
+
+.dropdown{
+  color: rgb(5, 58, 99);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 0px;
+  font-weight: 600;
+  border: 1px solid #2271cb;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+a{
+  color: 3d47fa;
+  font-size: larger;
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.arrow {
+  border: solid #080433;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-left: 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.regtable{
+  width: 100%;
+}
+
+.regtable td {
+  padding: 5px;
+}
+
+.regtable button {
+  width: 50%;
+  padding: 10px;
+  background-color: #5b987b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+  font-family: cursive;
+  margin-top: 15px;
+}
+
+.regtable button:hover {
+  background-color: #4779ed;
+}
+
+.error-message {
+  color: rgb(226, 21, 21);
+  font-weight: 600;
+}

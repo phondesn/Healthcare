@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AuthController.java&apos; to &apos;backend/src/main/java/com.app.controllers&apos;&#x0D;&#x0A;- Original project: &apos;FinalBackend&apos;&#x0D;&#x0A;- Destination element: &apos;backend/src/main/java/com.app.controllers&apos;&#x0D;&#x0A;- Original element: &apos;com.app.controller.AuthController.java&apos;" description="Copy compilation unit" destination="=backend/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.controllers" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.controller{AuthController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686567493951" units="1" version="1.0"/>
+</session>

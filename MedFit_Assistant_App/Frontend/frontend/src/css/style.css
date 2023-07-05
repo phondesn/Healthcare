@@ -1,0 +1,48 @@
+
+.cardBox
+{
+    position: relative;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+.cardBox .cards
+{   
+    position: relative;
+    background-color: #a2dbfe;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center; 
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cardBox .cards .cardName
+{
+    color: #180d7b;
+    font-size: larger;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.cardBox .cards .boxicon
+{
+    font-size: 2.2em;
+    color: black;
+}
+
+.cardBox .cards:hover
+{
+    background: #3265ca;
+}
+
+/* .cardBox .cards:hover .boxicon, */
+.cardBox .cards:hover .cardName
+{
+    color: #ffff;
+}
